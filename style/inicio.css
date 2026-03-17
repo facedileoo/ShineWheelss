@@ -241,3 +241,142 @@ footer a{
 footer a:hover{
     color: #b58c00;
 }
+
+iframe{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* ========================= */
+/* TABLETS */
+/* ========================= */
+@media (max-width: 992px){
+
+    h1{
+        font-size: 26px;
+    }
+
+    nav ul{
+        gap: 15px;
+    }
+
+    .navbar a{
+        font-size: 14px;
+    }
+
+    .qnesSomos{
+        padding: 40px 15px;
+    }
+
+    .qnesSomos h2{
+        font-size: 24px;
+    }
+
+    .qnesSomos p{
+        font-size: 16px;
+    }
+
+    .plan{
+        padding: 40px 15px;
+    }
+
+    footer{
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+}
+
+
+/* ========================= */
+/* CELULARES */
+/* ========================= */
+@media (max-width: 768px){
+
+    .headerSection{
+        background-image: url('./img/fondo-header-celu.jpg');
+    }
+
+    nav{
+        padding: 15px;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .navbar a{
+        font-size: 13px;
+    }
+
+    .navbar a:hover{
+        font-size: 14px;
+    }
+
+    h1{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .container-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .ubicacion{
+        grid-template-columns: 1fr;
+    }
+
+    .productos{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .producto img{
+        max-width: 90px;
+    }
+
+}
+
+
+/* ========================= */
+/* CELULARES CHICOS */
+/* ========================= */
+@media (max-width: 480px){
+
+    h1{
+        font-size: 20px;
+    }
+
+    .productos{
+        grid-template-columns: 1fr;
+    }
+
+    .qnesSomos{
+        margin: 30px 10px;
+    }
+
+    .qnesSomos p{
+        font-size: 15px;
+    }
+
+    .plan h3{
+        font-size: 20px;
+    }
+
+    .plan p{
+        font-size: 15px;
+    }
+
+    .plan h4{
+        font-size: 16px;
+    }
+
+    footer .contacto p{
+        font-size: 18px;
+    }
+
+}
